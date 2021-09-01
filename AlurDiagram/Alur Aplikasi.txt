@@ -1,0 +1,6 @@
+1. Ketika buka aplikasi kita akan diarahkan ke login page
+2. klik tombol button google 
+3. pilih akun google untuk login 
+4. Ketika Login berhasil akan diarahkan ke halaman Dashboard dan data tersimpan ke dalam dataabase
+
+note: untuk get data informasi ketik http://localhost:3000/Data
