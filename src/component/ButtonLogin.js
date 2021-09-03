@@ -11,7 +11,7 @@ function Login() {
 
   const onSuccess = (res) => {
     const db = getDatabase();
-    const postListRef = ref(db, 'p');
+    const postListRef = ref(db, 'users');
     const newPostRef = push(postListRef);
     set(newPostRef, res.profileObj);
 
